@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЦК ЗРВ РТВ</title>
+    <style>
+    * {
+      box-sizing: border-box;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background-image: url("images/zrv_back.jpg");
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+    }
+
+    .overlay {
+      min-height: 100vh;
+      padding: 60px 40px;
+      backdrop-filter: blur(1px);
+      /*background: rgba(0, 0, 0, 0.8);*/
+    }
+
+    .grid {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 30px;
+    }
+
+    .full {
+      grid-column: 1 / -1;
+    }
+
+    .card {
+      background: rgba(255, 255, 255, 0.75);
+      border-radius: 20px;
+      padding: 30px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      min-height: 200px;
+      min-width: 0;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .card h1 {
+      margin-top: 0;
+      font-size: 40px;
+      color: #1e3a8a;
+      text-align: center;
+    }
+      .card h2 {
+      margin-top: 0;
+      font-size: 24px;      
+    }
+      
+    .text {
+  text-align: center;
+}
+     .gallery {
+  max-height: 400px;
+  overflow-x: auto;
+}
+      .gallery-horizontal {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.gallery-horizontal img {
+  height: 400px;        /* 🔥 однакова висота */
+  width: auto;
+  flex-shrink: 0;       /* ❗ не стискаються */
+  object-fit: cover;
+  border-radius: 12px;
+}
+      video {
+ 		 width: 100%;
+        height: auto;
+  		border-radius: 14px;
+        max-height: 600px;   /* 👈 підбери значення */
+  /*height: auto;
+  aspect-ratio: 9 / 16;*/
+			}
+.video-wrap {
+  width: 100%;
+  max-height: 315px;        /* 👈 обмеження висоти */
+  aspect-ratio: 16 / 9;    /* пропорції */
+  overflow: hidden;        /* 🔑 не дає вилазити */
+  border-radius: 6px;
+}
+
+.video-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+    .card p {
+      font-size: 18px;
+      line-height: 1.5;
+    }
+      
+      .card ul{
+      font-size: 18px;
+      line-height: 1.5;
+    }
+      
+      .card ol{
+      font-size: 18px;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 768px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    </style>
+</head>
+<body>
+<div class="overlay">
+    <div class="grid">
+        <div class="card full">
+            <h1>Циклова комісія <br>
+                зенітних ракетних та радіотехнічних військ</h1>
+        </div>
+        <div class="card">
+
+            <div class="video-wrap">
+                <iframe src="https://www.youtube.com/embed/IxJarw4gAnM?si=N1TWWWKjDFMwLePs" title="YouTube video player"
+                        allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin"
+                        allowfullscreen="" frameborder="0" height="315" width="560">
+                </iframe>
+            </div>
+        </div>
+        <div class="card">
+            <h2 align="center">Начальник циклової комісії</h2>
+            <br>
+            <br>
+            <h3 align="center"> підполковник</h3>
+            <h2 align="center"> Мельник Олексій Валентинович</h2>
+        </div>
+        <div class="card full">
+            <h2 align="center">Зенітні ракетні війська: Еліта та технології</h2>
+            <p>Циклова комісія зенітних ракетних та радіотехнічних військ створена у 2022 році
+                з метою підготовки військових фахівців на зенітні ракетні комплексів та систем
+                середньої дальності та малої дальності та фахівців радіотехнічних військ.
+
+                Діяльність циклової комісії зосереджена на вирішені завдань підготовки з питань
+                експлуатації та бойового застосування зенітних ракетних комплексів С-300ПТ(ПС) та БУК М1.<br>
+
+            </p>
+            <h3 align="center">Тривалість навчання – 2 роки.</h3>
+
+        </div>
+        <div class="card full">
+            <h2 align="center">Напрями підготовки</h2>
+            <p> Cпеціальність К7 «<b>Озброєння та військова техніка</b>».<br>
+            </p>
+            <p>
+                Спеціалізації:
+            </p>
+
+
+            <ol>
+                <li>«<b>Експлуатація зенітних ракетних комплексів та систем середньої дальності</b>»
+                    На посади:
+
+
+                    <ul>
+                        <li> технік приймально-передавальних пристроїв радіотехнічної батареї зенітного ракетного
+                            комплексу 300ПТ(ПС);
+                        </li>
+                        <li> технік стартової батареї зенітного ракетного комплексу С-300ПТ(ПС).</li>
+                    </ul>
+                </li>
+                <br>
+                <li>«<b>Експлуатація радіоелектронних засобів інформаційного забезпечення і управління зенітними
+                    ракетними комплексами та системами</b>».
+                    На посади:
+
+
+                    <ul>
+                        <li> заступник начальника обслуги самохідної вогневої установки;</li>
+                        <li> заступник начальника обслуги пуска заряджаючої установки;</li>
+                        <li> заступник начальника обслуги пункту бойового управління.</li>
+                        Здобувачі освіти вивчають ЗРК БУК, ЗРК С300ПС (в перспективі ЗРК PATRIOT, ЗРК IRIS-T).
+                        Випускники здійснюють бойове застосування зенітних ракетних комплексів у складі бойової обслуги
+                        (по різним цілям від БПЛА, літака до балістичних ракет), а також технічне обслуговування цих
+                        комплексів.
+                    </ul>
+                </li>
+                <br>
+                <li>«<b>Експлуатація радіотехнічних систем та пристроїв засобів радіолокації</b>». На посади:
+
+
+                    <ul>
+                        <li> начальник радіолокаційної станції;</li>
+                        <li> начальник обслуги;</li>
+                        <li> начальник наземного запитувача.</li>
+                        Здобувачі освіти вивчають радіолокаційні станції П – 19МА, П-18, П-37.
+                        Випускники призначаються на посади у військові частини радіотехнічних військ Повітряних Сил.
+
+                    </ul>
+
+
+                </li>
+            </ol>
+        </div>
+        <div class="card full">
+
+            <div class="gallery-horizontal">
+                <img src="images/im10.jpg" alt="">
+                <img src="images/im2.jpg" alt="">
+                <img src="images/im3.jpg" alt="">
+                <img src="images/im13.jpg" alt="">
+                <img src="images/im5.jpg" alt="">
+                <img src="images/im6.jpg" alt="">
+                <img src="images/im11.jpg" alt="">
+                <img src="images/im7.jpg" alt="">
+                <img src="images/im8.jpg" alt="">
+                <img src="images/im12.jpg" alt="">
+                <img src="images/im9.jpg" alt="">
+                <img src="images/im14.jpg" alt="">
+            </div>
+        </div>
+
+        <div class="card full">
+            <h2 align="center">ЯКА ВАРТІСТЬ НАВЧАННЯ?</h2>
+            <ul type="square">
+                <li> здобуття фаховї передвищої освіти – <b>БЕЗКОШТОВНО</b>;</li>
+                <li> проживання – <b>БЕЗКОШТОВНО</b>;</li>
+                <li> харчування – <b>БЕЗКОШТОВНО</b>;</li>
+                <li> військова форма – <b>БЕЗКОШТОВНО</b>;</li>
+                <li> медичні послуги – <b>БЕЗКОШТОВНО</b>;</li>
+            </ul>
+            <h3 align="center">Крім цього, усім курсантам виплачується стипендія</h3>
+        </div>
+
+
+        <div class="card full">
+            <h2 align="center">Бути сержантом зенітних ракетних чи радіотехнічних військ -
+                це бути тим, хто бачить невидиме і знищує загрози ще на підльоті</h2>
+        </div>
+    </div>
+</div>
+</body>
+</html>
