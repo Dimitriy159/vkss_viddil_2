@@ -128,14 +128,29 @@
         grid-template-columns: 1fr;
       }
     }
+    .contact-call a{
+      align: center;
+      display:inline-block;
+      padding:12px 22px;
+      background:#8d795f;
+      color:white;
+      text-decoration:none;
+      border-radius:10px;
+      font-weight:600;
+      transition:0.25s;
+    }
 
+    .contact-call a:hover{
+      background:black;
+      transform:translateY(-2px);
+    }
     </style>
 </head>
 <body>
 <div class="overlay">
     <div class="grid">
         <div class="card full">
-            <h1>Циклова комісія <br>
+            <h1 style="color: black">Циклова комісія <br>
                 зенітних ракетних та радіотехнічних військ</h1>
         </div>
         <div class="card">
@@ -148,12 +163,15 @@
                 </iframe>
             </div>
         </div>
-        <div class="card">
-            <h2 align="center">Начальник циклової комісії</h2>
-            <br>
-            <br>
-            <h3 align="center"> підполковник</h3>
+        <div align="center" class="card">
+            <h2>Начальник циклової комісії</h2>
+            <h3 style="margin-top: 0" align="center"> підполковник</h3>
             <h2 align="center"> Мельник Олексій Валентинович</h2>
+            <div class="contact-call">
+              <a href="tel:+380976672389">
+                📞 Телефон: +38 (097) 667-23-89
+              </a>
+            </div>
         </div>
         <div class="card full">
             <h2 align="center">Зенітні ракетні війська: Еліта та технології</h2>
