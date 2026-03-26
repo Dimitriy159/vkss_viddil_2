@@ -8,7 +8,7 @@
   backdrop-filter: blur(4px);
 }
 
-.slider {
+.slider, .slider1 {
   overflow: hidden;
   border-radius: 22px;
 }
@@ -18,7 +18,7 @@
   transition: transform 0.45s ease;
 }
 
-.slide {
+.slide, .slide1 {
   width: 100%;
   flex: 0 0 100%;
   height: 620px;
@@ -68,7 +68,7 @@
   background: rgba(240, 240, 240, 0.95);
 }
 
-.dot {
+.dot, .dot1 {
   width: 14px;
   height: 14px;
   border: none;
@@ -78,7 +78,7 @@
   transition: 0.2s ease;
 }
 
-.dot.active {
+.dot.active, .dot1.active {
   background: #555;
   transform: scale(1.08);
 }
@@ -89,7 +89,7 @@
     border-radius: 20px;
   }
 
-  .slide {
+  .slide, .slide1 {
     height: 340px;
     border-radius: 16px;
   }
